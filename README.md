@@ -1,5 +1,17 @@
 # backstage-claim-registry-plugin
 
+> [!IMPORTANT]
+> **Dieses Repository ist archiviert. Der gepflegte Code liegt im Monorepo.**
+>
+> | | |
+> |---|---|
+> | Aktueller Code | [`stuttgart-things/sthings-backstage`](https://github.com/stuttgart-things/sthings-backstage) → `packages/backend/src/plugins/scaffolder-claim-registry` (Frontend: `packages/app/src/scaffolder/RegistryClaimPickerExtension.tsx`) |
+> | Warum | Dieses Repo war eine Kopie zum Verteilen und ist seit **März 2026** unberührt, während das Plugin im Monorepo weitergepflegt wurde (dort zuletzt mit dem Backstage-Upgrade 1.47.0 → 1.49.3). Wer hier installiert, bekommt einen halbjahresalten Stand. |
+> | Künftige Verteilung | Als npm-Package nach GHCR unter `@stuttgart-things/*`, statt Dateien zu kopieren. Siehe [sthings-backstage#120](https://github.com/stuttgart-things/sthings-backstage/issues/120). |
+>
+> Issues und PRs bitte im Monorepo. Der Inhalt unten bleibt als historischer Stand stehen.
+
+
 Backstage plugin for deleting claims via GitHub Pull Requests using the [Machinery Registry API](https://github.com/stuttgart-things/machinery-registry-api).
 
 ## Components
